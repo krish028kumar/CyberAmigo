@@ -144,3 +144,13 @@ curl -X POST http://localhost:3000/api/classify \
 
 ## 📄 License
 MIT License. Developed for cybersecurity intelligence and threat prevention.
+
+
+---
+
+### Developed By
+
+**Krish Kumar**  
+B.Tech Information Science & Engineering  
+Dayananda Sagar College of Engineering, Bengaluru
+
