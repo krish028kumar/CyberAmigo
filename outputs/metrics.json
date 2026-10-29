@@ -1,0 +1,45 @@
+{
+  "logistic_regression": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        79
+      ]
+    ],
+    "training_samples": 352,
+    "test_samples": 89
+  },
+  "random_forest": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        79
+      ]
+    ],
+    "training_samples": 352,
+    "test_samples": 89
+  },
+  "dataset_stats": {
+    "total_samples": 441,
+    "threat_count": 391,
+    "safe_count": 50,
+    "features": 1000,
+    "vocab_size": 1000
+  }
+}

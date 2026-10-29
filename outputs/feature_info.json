@@ -1,0 +1,28 @@
+{
+  "num_features": 1213,
+  "num_char_features": 1000,
+  "top_threat_features": [
+    "hash",
+    "biopass",
+    "attack",
+    "hash hash",
+    "backdoor",
+    "group",
+    "rat",
+    "cve",
+    "malware",
+    "campaign"
+  ],
+  "top_safe_features": [
+    "safe",
+    "s",
+    "let",
+    "let s",
+    "please",
+    "help",
+    "today safe",
+    "send",
+    "call",
+    "today"
+  ]
+}

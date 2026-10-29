@@ -1,0 +1,50 @@
+{
+  "dataset": {
+    "total_samples": 441,
+    "threat_samples": 391,
+    "safe_samples": 50,
+    "class_imbalance_ratio": 7.82,
+    "train_size": 352,
+    "test_size": 89
+  },
+  "feature_engineering": {
+    "type": "TF-IDF Vectorization",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 1500,
+    "feature_matrix_shape": [
+      352,
+      1213
+    ],
+    "sparsity_percent": 98.74184965899722
+  },
+  "cross_validation": {
+    "gradient_boosting_f1_mean": 1.0,
+    "gradient_boosting_f1_std": 0.0,
+    "xgboost_f1_mean": 1.0,
+    "xgboost_f1_std": 0.0
+  },
+  "test_performance": {
+    "gradient_boosting": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "xgboost": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    }
+  },
+  "generalization": {
+    "gradient_boosting_overfitting_gap": 0.0,
+    "xgboost_overfitting_gap": 0.0,
+    "assessment": "Excellent generalization with minimal overfitting"
+  }
+}
